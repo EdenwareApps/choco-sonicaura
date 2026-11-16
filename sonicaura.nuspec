@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sonicaura</id>
+    <version>1.0.6</version>
+    <title>SonicAura</title>
+    <authors>Edenware</authors>
+    <owners>Edenware</owners>
+    <projectUrl>https://sonicaura.app/</projectUrl>
+    <packageSourceUrl>https://github.com/EdenwareApps/choco-sonicaura</packageSourceUrl>
+    <docsUrl>https://sonicaura.app/</docsUrl>
+    <licenseUrl>https://sonicaura.app/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://sonicaura.app/icon.png</iconUrl>
+    <tags>sonicaura audio visualizer aura reactive overlay music desktop freeware</tags>
+    <summary>Audio-reactive desktop auras that follow whatever you are playing</summary>
+    <description>SonicAura paints reactive auras on your Windows desktop that pulse with the audio of any player or browser tab. Pick an aura, set the intensity and colours, and it reacts live to the music.
+
+Two auras are free, Pro unlock is a one-time purchase. Audio is analysed locally on the machine - no capture is uploaded and no telemetry is collected.
+
+This package installs the official electron-builder installer published by the developer and adds a `sonicaura` command shim.</description>
+    <releaseNotes>https://sonicaura.app/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
